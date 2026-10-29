@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1792741776 "/home/killian/math/calc2627/tutorialsheets/t02-series.tex" "/home/killian/math/calc2627/tutorialsheets/t02-series.pdf" "t02-series" 1792741778
+["pdflatex"] 1792741776 "/home/killian/math/calc2627/tutorialsheets/t02-series.tex" "/home/killian/math/calc2627/tutorialsheets/t02-series.pdf" "t02-series" 1793202076
   "/etc/texmf/web2c/texmf.cnf" 1621433308 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/killian/math/calc2627/tutorialsheets/t02-series.aux" 1792741778 953 276c0b6bec27708ca9479a2f848110ba ""
   "/home/killian/math/calc2627/tutorialsheets/t02-series.tex" 1792741773 21315 f0b6425770c44994e30305edab126edf ""
@@ -231,9 +231,9 @@
   "tutorials.sty" 1791387431 2136 8c69a4cd8f3e8c05f59fe519711f41a8 ""
   (generated)
   "t02-series.log"
-  "t02-series.aux"
-  "t02-series.pdf"
-  "t02-series.out"
-  "/home/killian/math/calc2627/tutorialsheets/t02-series.log"
   "t02-series.sagetex.sage"
   "/home/killian/math/calc2627/tutorialsheets/t02-series.pdf"
+  "t02-series.aux"
+  "/home/killian/math/calc2627/tutorialsheets/t02-series.log"
+  "t02-series.out"
+  "t02-series.pdf"
