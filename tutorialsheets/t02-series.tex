@@ -5,8 +5,8 @@
 \usepackage[framed,numbered]{matlab-prettifier}
 
 % for visibility of solutions
-% \showtrue
-\showfalse
+\showtrue
+% \showfalse
 
 % sansserif
 %\renewcommand{\familydefault}{\sfdefault}\textbf{}
@@ -334,9 +334,9 @@ As $ 0 \leq \frac{1}{3} < 1$ the given series is convergent.
 The series $\sum_{n=1}^\infty n^a / (2+n^3)$ depends on the value of the parameter $a$. For which values of $a$ will the series converge? For which values of $a$ will it diverge?
 
 \begin{solution}
-These series call for an application of the limit comparison test. As the comparison series we will use the hyper-harmonic series $\sum 1/n^{a-3}$. Applying the limit comparison test we get
-$$\lim \left ( \frac{n^a}{2+n^3} \frac{1}{1/n^{a-3}} \right ) = \lim \left ( \frac{n^a}{2+n^3} n^{3-a} \right ) = \lim \frac{n^3}{2+n^3} = \lim \frac{1}{2/n^3 + 1} = \lim \frac{1}{0+1} = 1.$$
-The conclusion is that the given series has the same convergent/divergent behaviour as the series $\sum 1/n^{a-3}$. This comparison series is convergent for $a > 4$ and divergent for $a \leq 4$ (by the result about hyper-harmonic series obtained from the integral test.)
+These series call for an application of the limit comparison test. As the comparison series we will use the hyper-harmonic series $\sum n^{a-3}$. Applying the limit comparison test we get
+$$\lim \left ( \frac{n^a}{2+n^3} \frac{1}{n^{a-3}} \right ) = \lim \left ( \frac{n^a}{2+n^3} n^{3-a} \right ) = \lim \frac{n^3}{2+n^3} = \lim \frac{1}{2/n^3 + 1} = \lim \frac{1}{0+1} = 1.$$
+The conclusion is that the given series has the same convergent/divergent behaviour as the series $\sum n^{a-3}$. This comparison series is convergent for $a-3 < -1$, i.e. $a < 2$ and divergent for $a-3 \geq -1$, i.e. $a \geq 2$ (by the result about hyper-harmonic series obtained from the integral test).
 \end{solution}
 
 

@@ -17,6 +17,36 @@ try:
 except:
  _st_.goboom(45)
 _st_.blockend()
+try:
+ _st_.current_tex_line = 52
+ _st_.inline(0, latex(D[0]))
+except:
+ _st_.goboom(52)
+try:
+ _st_.current_tex_line = 52
+ _st_.inline(1, latex(D[1]))
+except:
+ _st_.goboom(52)
+try:
+ _st_.current_tex_line = 52
+ _st_.inline(2, latex(D[2]))
+except:
+ _st_.goboom(52)
+try:
+ _st_.current_tex_line = 52
+ _st_.inline(3, latex(D[3]))
+except:
+ _st_.goboom(52)
+try:
+ _st_.current_tex_line = 52
+ _st_.inline(4, latex(D[4]))
+except:
+ _st_.goboom(52)
+try:
+ _st_.current_tex_line = 52
+ _st_.inline(5, latex(D[5]))
+except:
+ _st_.goboom(52)
 _st_.current_tex_line = 105
 _st_.blockbegin()
 try:
@@ -26,6 +56,16 @@ try:
 except:
  _st_.goboom(109)
 _st_.blockend()
+try:
+ _st_.current_tex_line = 113
+ _st_.inline(6, latex(a))
+except:
+ _st_.goboom(113)
+try:
+ _st_.current_tex_line = 113
+ _st_.inline(7, latex(b))
+except:
+ _st_.goboom(113)
 _st_.current_tex_line = 118
 _st_.blockbegin()
 try:
@@ -34,6 +74,11 @@ try:
 except:
  _st_.goboom(121)
 _st_.blockend()
+try:
+ _st_.current_tex_line = 127
+ _st_.inline(8, latex(a))
+except:
+ _st_.goboom(127)
 _st_.current_tex_line = 210
 _st_.blockbegin()
 try:
@@ -45,4 +90,39 @@ try:
 except:
  _st_.goboom(216)
 _st_.blockend()
+try:
+ _st_.current_tex_line = 225
+ _st_.inline(9, latex(a(n).partial_fraction(n)))
+except:
+ _st_.goboom(225)
+try:
+ _st_.current_tex_line = 225
+ _st_.inline(10, latex(sum(a(n),n,1,oo)))
+except:
+ _st_.goboom(225)
+try:
+ _st_.current_tex_line = 232
+ _st_.inline(11, latex(b(n).partial_fraction(n)))
+except:
+ _st_.goboom(232)
+try:
+ _st_.current_tex_line = 232
+ _st_.inline(12, latex(sum(b(n),n,1,oo)))
+except:
+ _st_.goboom(232)
+try:
+ _st_.current_tex_line = 239
+ _st_.inline(13, latex(c(n).partial_fraction(n)))
+except:
+ _st_.goboom(239)
+try:
+ _st_.current_tex_line = 239
+ _st_.inline(14, latex(sum(c(n),n,2,oo)))
+except:
+ _st_.goboom(239)
+try:
+ _st_.current_tex_line = 249
+ _st_.inline(15, latex(d(n).partial_fraction(n)))
+except:
+ _st_.goboom(249)
 _st_.endofdoc()
