@@ -36,8 +36,8 @@ Recall the summation formulae for consecutive powers we used in the lecture.
 * $$\sum_{j=1}^n j^2 = \frac{n(n+1)(2n+1)}{6},$$
 * $$\sum_{j=1}^n j^3 = \frac{n^2(n+1)^2}{4}$$
 
-1. Use the formula for the sum of first powers to develop a general formula for summing a finite arithmetic sequence with initial term $b$ and constant difference $a$, i.e. 
-$$ \sum_{m=0}^n (am + b) = \dots .$$
+1. Use the formula for the sum of first powers to develop a general formula for summing the first $n$ terms of an arithmetic sequence, with initial term $b$ and constant difference $a$, i.e. 
+$$ \sum_{m=0}^{n-1} (am + b) = \dots .$$
 Simplify the right hand side in an appropriate way.
 
 2. Assume for the moment that there exists a formula for the sum of fourth powers, giving a polynomial of degree $5$ with rational coefficients, of the form 
