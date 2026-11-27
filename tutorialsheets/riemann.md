@@ -39,7 +39,7 @@ Recall the summation formulae for consecutive powers we used in the lecture.
 1. Use the formula for the sum of first powers to develop a general formula for summing a finite arithmetic sequence of the form 
 $$ \sum_{m=1}^n (am + b) = \dots .$$
 
-2. Assume for the moment that there exists a formula for the sum of fifth powers, giving a polynomial of degree $5$ with rational coefficients, of the form 
+2. Assume for the moment that there exists a formula for the sum of fourth powers, giving a polynomial of degree $5$ with rational coefficients, of the form 
 $$ \sum_{i=1}^n i^4 = q_0 + q_1 n + q_2 n^2 + q_3 n^3 + q_4 n^4 + q_5 n^5, \quad (q_j \in \mathbb{Q}).$$
     - By sampling this formula for various values for $n$, generate a system of six linear equations for the unknown $q_j$. 
     - The system should have a unique solution. Use Matlab or similar to solve for the $q_j$, thus discovering what the formula is. 
