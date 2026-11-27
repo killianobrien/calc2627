@@ -55,5 +55,5 @@ $$x_i^* = \dots \quad (1 \leq i \leq n).$$
 
 ## A Riemann integral
 
-4. Set up and evaluate a Riemann integral for the definite integral $J$, 
+4. Set up and evaluate a Riemann integral for the definite integral $J$, using equally spaced partitions and your preferred choice of representative points,  
 $$J = \int_{-2}^1 3x^2 \, dx.$$
