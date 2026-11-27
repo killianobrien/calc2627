@@ -1,7 +1,6 @@
 ---
 title: "Riemann integral exercises"
 author: Killian O'Brien
-date: Week 08 2026/27	
 ---
 
 <head>
